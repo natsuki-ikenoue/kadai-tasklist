@@ -1,0 +1,29 @@
+[33mcommit b59a5d63d171654f767f1470fd0f99c7165f62ba[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: natsuki.ikenoue <tsumire617@gmail.com>
+Date:   Thu Aug 22 12:34:30 2019 +0000
+
+    DRY
+
+[33mcommit 3dc2bcd3c09af98d5a5747154c539b962d502d46[m
+Author: natsuki.ikenoue <tsumire617@gmail.com>
+Date:   Thu Aug 22 12:25:18 2019 +0000
+
+    DRY
+
+[33mcommit 3804bd6a532c07198f56a3419f6cfd1b87fd35c6[m
+Author: natsuki.ikenoue <tsumire617@gmail.com>
+Date:   Thu Aug 22 11:34:18 2019 +0000
+
+    tasklist
+
+[33mcommit 03f7b9424614744fa0015fcbc263b5a39e429631[m
+Author: natsuki.ikenoue <tsumire617@gmail.com>
+Date:   Wed Aug 21 13:24:48 2019 +0000
+
+    task model
+
+[33mcommit fca20477acfe322663a33cc0114308a11f4fe9c9[m
+Author: natsuki.ikenoue <tsumire617@gmail.com>
+Date:   Wed Aug 21 13:04:13 2019 +0000
+
+    init Rails Project
