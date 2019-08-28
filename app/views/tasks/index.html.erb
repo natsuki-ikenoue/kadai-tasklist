@@ -9,11 +9,12 @@
     <li><%= link_to task.id, task %> : <%= task.content %> &gt; <%= task.status %></li>
   <% end %>
 </ul>
-
-<%= link_to '新規タスクの投稿', new_task_path %>
-
-<%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
-
-<%= link_to 'Login', login_path %>
-
-<%= link_to 'Logout', logout_path, method: :delete %>
+<div>
+  <% if logged_in? %>
+    <%= link_to '新規タスクの投稿', new_task_path %>
+    <%= link_to 'Logout', logout_path, method: :delete %>
+  <% else %>
+    <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
+    <%= link_to 'Login', login_path %>
+  <% end %>
+</div>
